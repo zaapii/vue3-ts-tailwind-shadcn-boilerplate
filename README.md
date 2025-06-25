@@ -9,7 +9,7 @@
 
 ```bash
 # Clone and install
-git clone https://github.com/zaapii/vue3-ts-tw-shadcn-boilerplate
+git clone https://github.com/zaapii/vue3-ts-tailwind-shadcn-boilerplate
 cd vue3-ts-tw-shadcn-boilerplate
 pnpm install
 
