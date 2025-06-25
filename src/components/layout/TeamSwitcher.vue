@@ -2,7 +2,6 @@
   import { ChevronsUpDown } from 'lucide-vue-next'
   import { type Component, ref, watch } from 'vue'
 
-  import { useTheme } from '@/composables/useTheme'
 
   import {
     DropdownMenu,
@@ -13,6 +12,7 @@
     DropdownMenuTrigger,
   } from '@/components/ui/dropdown-menu'
   import { SidebarMenu, SidebarMenuButton, SidebarMenuItem, useSidebar } from '@/components/ui/sidebar'
+  import { useTheme } from '@/composables/useTheme'
 
   interface Team {
     name: string

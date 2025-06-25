@@ -2,13 +2,14 @@ import { VueQueryPlugin } from '@tanstack/vue-query'
 import { createApp } from 'vue'
 import { createI18n } from 'vue-i18n'
 
+import { SUPPORTED_LOCALES } from '@/composables/useI18n'
 import en from '@/locale/en.json'
 import es from '@/locale/es.json'
 
 import App from './App.vue'
 import router from './router'
+
 import './style.css'
-import { SUPPORTED_LOCALES } from '@/composables/useI18n'
 
 const getInitialLocale = (): string => {
   const savedLocale = localStorage.getItem('preferred-locale')

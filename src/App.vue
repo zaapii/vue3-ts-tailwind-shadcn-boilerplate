@@ -4,9 +4,9 @@
   import { Toaster } from '@/components/ui/sonner'
 
   import 'vue-sonner/style.css'
+  import SkipLink from './components/accessibility/SkipLink.vue'
   import BaseLayout from './components/layout/BaseLayout.vue'
   import PageTransition from './components/layout/PageTransition.vue'
-  import SkipLink from './components/accessibility/SkipLink.vue'
   import { useAccessibility } from './composables/useAccessibility'
   import { useI18n } from './composables/useI18n'
   import { useTheme } from './composables/useTheme'
