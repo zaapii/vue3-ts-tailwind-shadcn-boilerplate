@@ -83,9 +83,9 @@ The pattern looks like this:
 
 ```typescript
 // Clean, typed, and handles all the edge cases
-const { data, isLoading, error } = useSwApiQuery({
-  queryKey: [queryKeys.people],
-  queryFn: ky => ky.get(queryKeys.people).json(),
+const { data, isLoading, error } = useApiQuery({
+  queryKey: ['YOUR_QUERY_KEY'],
+  queryFn: ky => ky.get("your-url.com/data").json(),
 })
 ```
 
