@@ -1,0 +1,6 @@
+// DELETE THIS IF YOU'RE NOT GOING TO DEPLOY TO NETLIFY //
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

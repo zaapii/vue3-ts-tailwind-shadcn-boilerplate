@@ -1,0 +1,12 @@
+{
+  "common": {
+    "hello": "Hello",
+    "currentLocale": "Language",
+    "home": "Home",
+    "homeSubline": "Vue 3 + TypeScript + Vite + Tailwind CSS + Shadcn UI"
+  },
+  "navigation": {
+    "team1": "Team 1",
+    "team2": "Team 2"
+  }
+}
