@@ -215,5 +215,4 @@ t('common.hello') // → "Hello" / "Hola" / depending on locale
 - **Port conflicts**: If 5173 is taken, Vite will automatically use the next available port
 - **Type errors**: Run `pnpm type-check` to see all TypeScript issues
 - **Test failures**: Make sure you're running the latest Node.js version
-
 ---
